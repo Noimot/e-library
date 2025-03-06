@@ -18,7 +18,7 @@ const TextInput = ({
       <input
         type={type}
         placeholder={placeholder}
-        // name={name}
+        name={name}
         value={value}
         onChange={(e) => onChange?.(e)}
         className="w-full h-full bg-transparent outline-0 placeholder:capitalize placeholder:text-black text-sm px-4 text-black"

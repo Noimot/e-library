@@ -1,4 +1,3 @@
-import React from "react";
 import DashboardLayout from "../../../component/DashboardLayout";
 import { members } from "../../../../src/helpers";
 import { Table } from "../../../component/Table";
