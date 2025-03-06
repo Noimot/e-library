@@ -14,7 +14,7 @@ const TextInput = ({
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }) => {
   return (
-    <div className={`w-full h-12 !bg-[#4C4C4C]/20 rounded-[5px] ${className}`}>
+    <div className={`w-full h-12 !bg-gray-200 rounded-[5px] ${className}`}>
       <input
         type={type}
         placeholder={placeholder}

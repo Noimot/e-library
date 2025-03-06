@@ -42,7 +42,7 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
             <select
-              className="w-full h-12 !bg-[#4C4C4C]/20 rounded-[5px] border-0 px-3 text-sm"
+              className="w-full h-12 !bg-gray-200 rounded-[5px] border-0 px-3 text-sm"
               value={role}
               onChange={(e) => setRole(e.target.value)}
             >
